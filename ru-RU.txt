@@ -1,6 +1,6 @@
 command.syntax:                Синтаксис: {#7}{1}{2} {3}
 command.syntax.description:    Синтаксис: {#7}{1}{2} {3} {#c}- {4}
-command.notfound:              Команда не найдена!. Напишите {1}help для показа всех команд.
+command.notfound:              Команда не найдена! Напишите {1}help для показа всех команд.
 command.cantconvert:           {#e}{1} {#c}не является числом!
 command.toolow:                {#e}{1} {#c}не может быть ниже {2}!
 commands.bind.bind:            Модуль {#a}{1} {#c}был забинден на клавишу {#e}{2}
