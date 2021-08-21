@@ -1,6 +1,6 @@
 command.syntax:                Syntax: {#7}{1}{2} {3}
 command.syntax.description:    Syntax: {#7}{1}{2} {3} {#c}- {4}
-command.notfound:              Command not found. Type {1}help to view all commands.
+command.notfound:              Command not found! Type {1}help to view all commands.
 command.cantconvert:           {#e}{1} {#c}cannot be converted to number!
 command.toolow:                {#e}{1} {#c}cannot be lower than {2}!
 commands.bind.bind:            Module {#a}{1} {#c}was bound to {#e}{2}
