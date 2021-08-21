@@ -1,1 +1,33 @@
-test: Заебал 123
+command.syntax:                Синтаксис: {#7}{1}{2} {3}
+command.syntax.description:    Синтаксис: {#7}{1}{2} {3} {#c}- {4}
+command.notfound:              Команда не найдена!. Напишите {1}help для показа всех команд.
+command.cantconvert:           {#e}{1} {#c}не является числом!
+command.toolow:                {#e}{1} {#c}не может быть ниже {2}!
+commands.bind.bind:            Модуль {#a}{1} {#c}был забинден на клавишу {#e}{2}
+commands.bind.unbind:          Модуль {#a}{1} {#c}был отбинден от клавиш на {#e}NONE
+commands.bind.unknownkey:      Неизвестная клавиша: {#e}{1}{#c}! Попробуйте использовать {#7}{2}bind NONE{#c}, чтобы отбиндить модуль
+commands.bind.unknownmodule:   Модуль {#e}{1} {#c}не найден!
+commands.language.set:         Язык был поставлен на {#e}{#l}{1}
+commands.modules.on:           {#a}{1}{#c}: Настройка {#a}{2} {#c}была {#l}{#e}включена!
+commands.modules.off:          {#a}{1}{#c}: Настройка {#a}{2} {#c}была {#l}{#4}выключена!
+commands.modules.set:          {#a}{1}{#c}: Настройка {#a}{2} {#c}была изменена на {#e}{3}
+commands.modules.mm.setmin:    {#a}{1}{#c}: Минимальное значение настройки {#e}{2} {#c}было изменено на {#e}{3}
+commands.modules.mm.thenmax:   {#a}{1}{#c}: Максимальное значение настройки {#e}{2} {#c}было тоже изменено на {#e}{3}{#c}, потому что новое значение больше, чем бывшее максимальное!");
+commands.modules.mm.setmax:    {#a}{1}{#c}: Максимальное значение настройки {#e}{2} {#c}было изменено на {#e}{3}
+commands.modules.mm.thenmin:   {#a}{1}{#c}: Минимальное значение настройки {#e}{2} {#c}было тоже изменено на {#e}{3}{#c}, потому что новое значение меньше, чем бывшее минимальное!");
+commands.modules.targets.on:   {#a}{1}{#c}: Таргеты {2} {#c}были {#l}{#e}включены!
+commands.modules.targets.off:  {#a}{1}{#c}: Таргеты {2} {#c}были {#l}{#4}выключены!
+commands.mb.usage1:            Отправить сообщение '<Count>' раз
+commands.mb.usage2:            Показать содержимое хранилища
+commands.mb.usage3:            Создать новое хранилище
+commands.mb.usage4:            Записывает сообщение в хранилище
+commands.mb.usage5:            Отправить сообщения из хранилища '<Count>' раз
+commands.mb.empty:             Хранилище сейчас пустое!
+commands.mb.create:            Создано новое хранилище!
+commands.mb.notexists:         Создайте новое хранилище чтобы начать его заполнять! {#7}{1}messagebuffer start
+commands.mb.added:             Сообщение было добавлено в хранилище: '{#e}{1}{#c}'
+commands.mb.notexists2:        Создайте новое хранилище и запишите в него сообщения, чтобы их отправить! {#7}{1}messagebuffer start{#c}, {#7}{1}messagebuffer write <Message>
+commands.teleport.teleport:    Телепортация на точку <{#e}{1} {2} {3}{#c}>
+commands.toggle.on:            Модуль {#a}{1} {#c}был {#l}{#e}включён!
+commands.toggle.off:           Модуль {#a}{1} {#c}был {#l}{#4}выключен!
+commands.toggle.notfound:      Модуль {#e}{1} {#c}не был найден!

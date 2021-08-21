@@ -1,1 +1,33 @@
-test: Get rekt
+command.syntax:                Syntax: {#7}{1}{2} {3}
+command.syntax.description:    Syntax: {#7}{1}{2} {3} {#c}- {4}
+command.notfound:              Command not found. Type {1}help to view all commands.
+command.cantconvert:           {#e}{1} {#c}cannot be converted to number!
+command.toolow:                {#e}{1} {#c}cannot be lower than {2}!
+commands.bind.bind:            Module {#a}{1} {#c}was bound to {#e}{2}
+commands.bind.unbind:          Module {#a}{1} {#c}was unbound to {#e}NONE
+commands.bind.unknownkey:      Unknown key: {#e}{1}{#c}! Try to use {#7}{2}bind NONE {#c}to unbind the module
+commands.bind.unknownmodule:   Module {#e}{1} {#c}not found!
+commands.language.set:         The language was set to {#e}{1}
+commands.modules.on:           {#a}{1}{#c}: The value {#a}{2} {#c}was toggled {#l}{#e}on
+commands.modules.off:          {#a}{1}{#c}: The value {#a}{2} {#c}was toggled {#l}{#4}off
+commands.modules.set:          {#a}{1}{#c}: The value of {#a}{2} {#c}was set to {#e}{3}
+commands.modules.mm.setmin:    {#a}{1}{#c}: The min value of {#e}{2} {#c}was set to {#e}{3}
+commands.modules.mm.thenmax:   {#a}{1}{#c}: The max value of {#e}{2} {#c}was also set to {#e}{3} {#c}because of the max value is less than min one!");
+commands.modules.mm.setmax:    {#a}{1}{#c}: The max value of {#e}{2} {#c}was set to {#e}{3}
+commands.modules.mm.thenmin:   {#a}{1}{#c}: The min value of {#e}{2} {#c}was also set to {#e}{3} {#c}because of the min value is greater than max one!");
+commands.modules.targets.on:   {#a}{1}{#c}: targets {2} {#c}was toggled {#l}{#e}on
+commands.modules.targets.off:  {#a}{1}{#c}: targets {2} {#c}was toggled {#l}{#4}off
+commands.mb.usage1:            Send the message for '<Count>' times
+commands.mb.usage2:            Shows current buffered messages
+commands.mb.usage3:            Starts listening new buffer
+commands.mb.usage4:            Writes the message to buffer
+commands.mb.usage5:            Send the buffered messages for '<Count>' times
+commands.mb.empty:             The buffer is empty!
+commands.mb.create:            The new buffer was created!
+commands.mb.notexists:         Create the new buffer to start writing! {#7}{1}messagebuffer start
+commands.mb.added:             Message was added to the buffer: '{#e}{1}{#c}'
+commands.mb.notexists2:        Create the new buffer and write something on it to start sending! {#7}{1}messagebuffer start{#c}, {#7}{1}messagebuffer write <Message>
+commands.teleport.teleport:    Teleporting to <{#e}{1} {2} {3}{#c}>
+commands.toggle.on:            Module {#a}{1} {#c}was toggled {#l}{#e}on!
+commands.toggle.off:           Module {#a}{1} {#c}was toggled {#l}{#4}off!
+commands.toggle.notfound:      Module {#e}{1} {#c}not found!
