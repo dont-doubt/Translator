@@ -7,7 +7,7 @@ commands.bind.bind:            Module {#a}{1} {#c}was bound to {#e}{2}
 commands.bind.unbind:          Module {#a}{1} {#c}was unbound to {#e}NONE
 commands.bind.unknownkey:      Unknown key: {#e}{1}{#c}! Try to use {#7}{2}bind NONE {#c}to unbind the module
 commands.bind.unknownmodule:   Module {#e}{1} {#c}not found!
-commands.language.set:         The language was set to {#e}{1}
+commands.language.set:         The language was set to {#e}{#l}{1}
 commands.modules.on:           {#a}{1}{#c}: The value {#a}{2} {#c}was toggled {#l}{#e}on
 commands.modules.off:          {#a}{1}{#c}: The value {#a}{2} {#c}was toggled {#l}{#4}off
 commands.modules.set:          {#a}{1}{#c}: The value of {#a}{2} {#c}was set to {#e}{3}
