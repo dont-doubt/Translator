@@ -12,9 +12,9 @@ commands.modules.on:           {#a}{1}{#c}: The value {#a}{2} {#c}was toggled {#
 commands.modules.off:          {#a}{1}{#c}: The value {#a}{2} {#c}was toggled {#l}{#4}off
 commands.modules.set:          {#a}{1}{#c}: The value of {#a}{2} {#c}was set to {#e}{3}
 commands.modules.mm.setmin:    {#a}{1}{#c}: The min value of {#e}{2} {#c}was set to {#e}{3}
-commands.modules.mm.thenmax:   {#a}{1}{#c}: The max value of {#e}{2} {#c}was also set to {#e}{3} {#c}because of the max value is less than min one!");
+commands.modules.mm.thenmax:   {#a}{1}{#c}: The max value of {#e}{2} {#c}was also set to {#e}{3} {#c}because of the max value is less than min one!
 commands.modules.mm.setmax:    {#a}{1}{#c}: The max value of {#e}{2} {#c}was set to {#e}{3}
-commands.modules.mm.thenmin:   {#a}{1}{#c}: The min value of {#e}{2} {#c}was also set to {#e}{3} {#c}because of the min value is greater than max one!");
+commands.modules.mm.thenmin:   {#a}{1}{#c}: The min value of {#e}{2} {#c}was also set to {#e}{3} {#c}because of the min value is greater than max one!
 commands.modules.targets.on:   {#a}{1}{#c}: targets {2} {#c}was toggled {#l}{#a}on
 commands.modules.targets.off:  {#a}{1}{#c}: targets {2} {#c}was toggled {#l}{#4}off
 commands.mb.usage1:            Send the message for '<Count>' times
